@@ -1,0 +1,48 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* commands.txt
+* readme.txt
+* release_notes.txt
+* supported_commands_for_essentials_build.txt
+* x86_verified_commands.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => ffmpeg4android_lib\src\main\AndroidManifest.xml
+* assets\ => ffmpeg4android_lib\src\main\assets
+* libs\armeabi-v7a\liblicense-jni.so => ffmpeg4android_lib\src\main\jniLibs\armeabi-v7a\liblicense-jni.so
+* libs\armeabi-v7a\libloader-jni.so => ffmpeg4android_lib\src\main\jniLibs\armeabi-v7a\libloader-jni.so
+* libs\armeabi-v7a\libvideokit.so => ffmpeg4android_lib\src\main\jniLibs\armeabi-v7a\libvideokit.so
+* libs\armeabi-v7a\libvideokit.so.ess => ffmpeg4android_lib\src\main\jniLibs\armeabi-v7a\libvideokit.so.ess
+* libs\x86\liblicense-jni.so => ffmpeg4android_lib\src\main\jniLibs\x86\liblicense-jni.so
+* libs\x86\libloader-jni.so => ffmpeg4android_lib\src\main\jniLibs\x86\libloader-jni.so
+* libs\x86\libvideokit.so => ffmpeg4android_lib\src\main\jniLibs\x86\libvideokit.so
+* libs\x86\libvideokit.so.ess => ffmpeg4android_lib\src\main\jniLibs\x86\libvideokit.so.ess
+* lint.xml => ffmpeg4android_lib\lint.xml
+* res\ => ffmpeg4android_lib\src\main\res\
+* src\ => ffmpeg4android_lib\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

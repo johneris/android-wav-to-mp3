@@ -4,6 +4,32 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <include layout="@layout/include_toolbar"/>
+    <include layout="@layout/include_toolbar" />
+
+    <EditText
+        android:id="@+id/etFilename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRecord"
+        style="@style/Button.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        style="@style/Button.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        style="@style/Button.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play" />
 
 </LinearLayout>
